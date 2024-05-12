@@ -1,0 +1,26 @@
+{
+  "name": "x-app",
+  "description": "With Makefile - Control Multiple Environments Docker Image Release and Versioning",
+  "version": "1.0.9",
+  "private": false,
+  "scripts": {
+    "dev": "next dev",
+    "start": "next start",
+    "lint": "next lint",
+    "build": "cross-env NEXT_PUBLIC_VERSION=$TAG NEXT_PUBLIC_GIT_COMMIT_ID=$GIT_COMMIT NEXT_PUBLIC_ENV_FILE=$ENV next build",
+    "version:update": "node ./utils/version.js",
+    "tsc": "npx tsc --noEmit --skipLibCheck"
+  },
+  "dependencies": {
+    "next": "14.2.3",
+    "react": "^18",
+    "react-dom": "^18"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "cross-env": "^7.0.3",
+    "typescript": "^5"
+  }
+}

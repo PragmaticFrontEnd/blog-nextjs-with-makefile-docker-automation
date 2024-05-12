@@ -1,0 +1,16 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  border: 1px solid white;
+  padding: 2rem;
+  margin-top: 20vh;
+  font-size: 16px;
+}

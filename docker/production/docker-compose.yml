@@ -1,0 +1,15 @@
+version: '3.7'
+
+services:
+  x-app:
+    # deployed on linux system in production
+    platform: 'linux/amd64'
+    build:
+      context: ../../
+      dockerfile: docker/Dockerfile
+    env_file:
+      - .env
+    image: ${APP_NAME}-${NODE_ENV}:${TAG}
+    restart: always
+    ports:
+      - '${DOCKER_HOST_PORT}:${DOCKER_CONTAINER_PORT}'
