@@ -1,6 +1,6 @@
-# With Makefile - Control Multiple Environments Docker Image Release and Versioning
+# With Makefile - Next.js docker deployment and versioning automation
 
-Nest.js team have an example in their official examples as [With Docker - Multiple Deployment Environments](https://github.com/vercel/next.js/tree/canary/examples/with-docker-multi-env), which managed in a [Makefile](https://github.com/vercel/next.js/blob/canary/examples/with-docker-multi-env/Makefile).
+Next.js team have an example in their official examples as [With Docker - Multiple Deployment Environments](https://github.com/vercel/next.js/tree/canary/examples/with-docker-multi-env), which managed in a [Makefile](https://github.com/vercel/next.js/blob/canary/examples/with-docker-multi-env/Makefile).
 
 This example pushed it further, not only load different environments, but also make `Makefile as an Orchestra`, let it control every step of a Next.js project docker image release.
 
@@ -128,4 +128,4 @@ make dev
 
 ## How it works
 
-It's explained in [here](https://dev.to/pragmaticfrontend/with-makefile-nestjs-docker-deployment-and-versioning-automation-m6m)
+It's explained in [here](https://dev.to/pragmaticfrontend/with-makefile-nextjs-docker-deployment-and-versioning-automation-m6m)
