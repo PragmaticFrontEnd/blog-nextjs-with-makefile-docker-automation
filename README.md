@@ -29,7 +29,6 @@ The current project `package.json` looks like below:
 ```json
 "name": "x-app",
 "version": "1.0.9",
-...
 ```
 
 #### After Build Phase
@@ -126,7 +125,3 @@ make <command> NODE_ENV=development
 ```bash
 make dev
 ```
-
-## How it works
-
-Please refer to
