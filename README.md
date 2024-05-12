@@ -125,3 +125,7 @@ make <command> NODE_ENV=development
 ```bash
 make dev
 ```
+
+## How it works
+
+It's explained in [here](https://dev.to/pragmaticfrontend/with-makefile-nestjs-docker-deployment-and-versioning-automation-m6m)
