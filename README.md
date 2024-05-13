@@ -128,4 +128,5 @@ make dev
 
 ## How it works
 
-It's explained in [here](https://dev.to/pragmaticfrontend/with-makefile-nextjs-docker-deployment-and-versioning-automation-m6m)
+- English version in dev.io (https://dev.to/pragmaticfrontend/with-makefile-nestjs-docker-deployment-and-versioning-automation-m6m)
+- Chinese version in Juejin (https://juejin.cn/spost/7367679976868937743)
